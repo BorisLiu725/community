@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  * Created by BorisLiu on 2019/9/5
  */
 @Controller
-public class HelloController {
+public class IndexController {
 
     @GetMapping("/")
     public String index(){
